@@ -9,9 +9,11 @@ body{
 .heroImages{
     width: 200px;
     height: 300px;
+    border: 4px blue solid;
 }
 a{
     text-decoration: none;
+    color:rgb(229, 231, 235);
 }
 .image1{
     width: 500px;
@@ -22,9 +24,12 @@ button{
     text-align: center;
     width: 120px;
     background-color: rgb(56, 130, 246);
+    color: rgb(249, 250, 248);
 }
 .large{
-    font-size: 40px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(249, 250, 248);
 }
 .section1{
     display: flex;
@@ -53,7 +58,11 @@ button{
     max-height: 400px;
 }
 .slogan{
-    font-size: 20px;
+    font-size: 18px;
+    color: rgb(229, 231, 235)
+}
+.slogan2{
+    color: rgb(229, 231, 235)
 }
 /* section one css ends here */
 .section2{
@@ -62,17 +71,20 @@ button{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-   min-height:80vh;
+    min-height:80vh;
 }
 .section2Header{
     flex-basis: 100%;
     align-self: center;
     min-width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: rgb(31, 41, 55);
 }
+/* section two css ends here */
 .section3{
-    min-height: 70vh;
+    min-height: 60vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -84,4 +96,54 @@ button{
     max-width: 90vh;
     display: flex;
     flex-basis: 100%;
+    font-size: 36px;
+    color:rgb(31, 41, 55);
+    font-weight: lighter;
+    font-style: italic;
+}
+.down{
+    align-self: center;
+}
+/* section 3 css ends here */
+.section4{
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lastSection{
+    display: flex;
+    background-color:rgb(56, 130, 246);
+    padding: 35px;
+    border-radius: 2%;
+    min-width: 70%;
+}
+.copyright{
+    display: flex;
+    min-width: 100%;
+    background-color:rgb(31, 41, 55) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    height: 10vh;
+    font-weight: bold;
+}
+.lastContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shift{
+    margin-left:auto;
+}
+.header{
+    flex-basis: 100%;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.action{
+    font-size: 20px;
+    font-style: italic;
 }
